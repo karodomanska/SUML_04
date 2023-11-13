@@ -23,7 +23,7 @@ embarked_d = {0:"Cherbourg", 1:"Queenstown", 2:"Southampton"}
 
 def main():
 
-	st.set_page_config(page_title="Jakie masz szansę na przeżycie katastrofy Titanica?")
+	st.set_page_config(page_title="Jakie masz szanse na przeżycie katastrofy Titanica?")
 	overview = st.container()
 	left, right = st.columns(2)
 	prediction = st.container()
@@ -31,7 +31,7 @@ def main():
 	st.image("https://cattime.com/wp-content/uploads/sites/14/2022/02/owlkitty-titanic-1.jpg?w=759")
 
 	with overview:
-		st.title("Jakie masz szansę na przeżycie katastrofy Titanica?")
+		st.title("Jakie masz szanse na przeżycie katastrofy Titanica?")
 
 	with left:
 		sex_radio = st.radio( "Płeć", list(sex_d.keys()), format_func=lambda x : sex_d[x] )
