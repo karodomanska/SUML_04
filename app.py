@@ -23,7 +23,7 @@ embarked_d = {0:"Cherbourg", 1:"Queenstown", 2:"Southampton"}
 
 def main():
 
-	st.set_page_config(page_title="???")
+	st.set_page_config(page_title="Jakie masz szansę na przeżycie katastrofy Titanica?")
 	overview = st.container()
 	left, right = st.columns(2)
 	prediction = st.container()
