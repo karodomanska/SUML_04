@@ -28,7 +28,7 @@ def main():
 	left, right = st.columns(2)
 	prediction = st.container()
 
-	st.image("https://i.pinimg.com/736x/20/fd/c0/20fdc071f1c6f89079ade648dc7bb975.jpg")
+	st.image("https://i.ytimg.com/vi/kEPfM3jSoBw/hqdefault.jpg")
 
 	with overview:
 		st.title("Jakie masz szansę na przeżycie katastrofy Titanica?")
